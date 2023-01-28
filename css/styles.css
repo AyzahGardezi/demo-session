@@ -39,8 +39,8 @@ h3
 /* add dark-mode class*/
 .dark-mode
 {
-  color: white;
   background-color: black;
+  color: white;
 }
 body
 {

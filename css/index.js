@@ -12,13 +12,13 @@ darkModeBtn.addEventListener("click", ()=>
 
     if (isDark===true)
     {
-        isDark = false;
         darkModeBtn.innerHTML = "<iconify-icon icon=\"material-symbols:dark-mode\" style=\"color: gray;\" width=\"40\"></iconify-icon>";
+        isDark = false;
     }
     else
     {
-        isDark = true;
         darkModeBtn.innerHTML = "<iconify-icon icon=\"material-symbols:light-mode\" style=\"color: white;\" width=\"40\"></iconify-icon>";
+        isDark = true;
     }
 
     // 
