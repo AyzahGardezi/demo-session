@@ -37,6 +37,11 @@ h3
   font-family: 'Montserrat', sans-serif;
 }
 /* add dark-mode class*/
+.dark-mode
+{
+  color: white;
+  background-color: black;
+}
 body
 {
   margin: 0;
