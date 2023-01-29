@@ -35,10 +35,17 @@ h3
   color: #11999E;
   font-family: 'Montserrat', sans-serif;
 }
-/* add dark-mode class*/
+/* add dark-mode class */
 .dark-mode
 {
-  background-color: black;
+  background-color: rgb(50, 50, 50);
+}
+/* add attributes for dark-mode-btn */
+#dark-mode-btn
+{
+  position: absolute;
+  right: 50px;
+  top: 50px;
 }
 body
 {
@@ -47,16 +54,6 @@ body
   font-family: 'Merriweather', serif;
   background-color: #EAF6F6;
   /* position: relative; */
-}
-#dark-mode-btn{
-  position: absolute;
-  right: 50px;
-  top: 50px;
-  outline: none;
-}
-#dark-mode-btn:focus{
-  border: none;
-  outline:none;
 }
 .top
 {
